@@ -36,7 +36,7 @@ def main_page():
         column_list = st.session_state.df0.columns.values
         day_list = st.session_state.df0.index.values
         day_list_selector = st.sidebar.selectbox("データセット選択", day_list)
-        bin = st.sidebar.slider("binの幅を決めてください", 5, 100, 25)
+        bin = st.sidebar.slider("binの数を決めてください", 5, 100, 25)
 
         st.markdown(
             "<h1 style='text-align: center;'>ヒストグラム表示</h1>",
