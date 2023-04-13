@@ -24,7 +24,7 @@ st.markdown(hide_style, unsafe_allow_html=True)
 # 最初のページ
 def main_page():
 
-    st.subheader('CSVを読み読む')
+    st.subheader('CSV読込')
     uploaded_file = st.file_uploader("ファイルを選択してください")
     #data_quantity = st.number_input("データ数:", key = "data quantity")
 
